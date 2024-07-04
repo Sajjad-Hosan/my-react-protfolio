@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { TbSmartHome,TbBook } from "react-icons/tb";
+import { TbSmartHome, TbBook } from "react-icons/tb";
 import { BsPersonExclamation } from "react-icons/bs";
 import { IoLayersOutline } from "react-icons/io5";
 import { MdOutlineContacts } from "react-icons/md";
@@ -9,7 +9,7 @@ import Setting from "../Setting/Setting";
 import { useState } from "react";
 
 const BottomNav = () => {
-  const [open,setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
   const { hash } = useLocation();
   const navLinks = [
     {
@@ -17,12 +17,6 @@ const BottomNav = () => {
       icon: <TbSmartHome />,
       label: "Home",
     },
-    {
-      path: "#blog",
-      icon: <TbBook />,
-      label: "Blog",
-    },
-    
     {
       path: "#about",
       icon: <BsPersonExclamation />,
@@ -37,6 +31,11 @@ const BottomNav = () => {
       path: "#projects",
       icon: <IoLayersOutline />,
       label: "Projects",
+    },
+    {
+      path: "#blog",
+      icon: <TbBook />,
+      label: "Blog",
     },
     {
       path: "#contact",
@@ -67,10 +66,12 @@ const BottomNav = () => {
           <li>
             <button
               onClick={() => {
-                document.getElementById("setting").showModal()
-                setOpen(!open)
+                document.getElementById("setting").showModal();
+                setOpen(!open);
               }}
-              className={`btn btn-sm text-xl tooltip mt-1 ml-2 ${open ? 'btn-neutral' : 'btn-ghost'}`}
+              className={`btn btn-sm text-xl tooltip mt-1 ml-2 ${
+                open ? "btn-neutral" : "btn-ghost"
+              }`}
               data-tip="Setting"
             >
               <GoGear />

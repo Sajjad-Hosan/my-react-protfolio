@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
     <>
       <div className="card p-8 bg-base-100 shadow-2xl relative">
         <div className="flex justify-between items-center">
-          <h1 className="text-xl">{name}</h1>
+          <h1 className="text-xl">Project {id}</h1>
           <button
             className={`btn btn-sm px-6`}
           >
@@ -22,9 +22,10 @@ const ProjectCard = ({ project }) => {
           alt=""
         />
         <div className="space-y-5 border-t pt-5">
-          <p>{description}</p>
+          <h1 className="text-2xl">{name}</h1>
+          <p>~ {description}</p>
           <ul className="pl-6" style={{ listStyleType: "disc" }}>
-            <p className="font-semibold mb-2">Features</p>
+            <p className="font-semibold mb-2 -ml-5">Features</p>
             {
                 features.map((index) =>  <li key={index}>{index}</li>)
             }

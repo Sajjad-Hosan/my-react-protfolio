@@ -2,39 +2,39 @@ const SkillSection = () => {
   const skills = [
     {
       name: "html",
-      img: "/src/assets/skills/html-5.svg",
+      img:"https://i.ibb.co/qR0P5L2/html-5.png"
     },
     {
       name: "css",
-      img: "/src/assets/skills/css-3.svg",
+      img:"https://i.ibb.co/Q9vKQ5f/css-3.png"
     },
     {
       name: "javaScript",
-      img: "/src/assets/skills/js.svg",
+      img:"https://i.ibb.co/9mD4Js3/js.png"
     },
     {
       name: "react",
-      img: "/src/assets/skills/react.svg",
+      img:"https://i.ibb.co/wMmy9jX/react.png"
     },
     {
       name: "tailwind",
-      img: "/src/assets/skills/tailwind.svg",
+      img:"https://i.ibb.co/DQwCpPs/tailwind.png"
     },
     {
       name: "express.js",
-      img: "/src/assets/skills/express.svg",
+      img:"https://i.ibb.co/jTFK3yM/express.png"
     },
     {
       name: "firebase",
-      img: "/src/assets/skills/firebase.svg",
+      img:"https://i.ibb.co/qsfpVLB/firebase.png"
     },
     {
       name: "node js",
-      img: "/src/assets/skills/node.svg",
+      img:"https://i.ibb.co/Q92TJtq/node.png"
     },
     {
       name: "mongodb",
-      img: "/src/assets/skills/mongodb.svg",
+      img:"https://i.ibb.co/k5d877Z/mongodb.png"
     },
   ];
   return (

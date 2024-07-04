@@ -10,7 +10,19 @@ const ProjectsSection = () => {
       live: " https://world-journeys-6b61a.web.app/",
       gitRepo: "https://github.com/Sajjad-Hosan/world-journeys",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores architecto tempora eum et voluptas. Quasi modi at tempore veniam esse.",
+        "This is a web page. Where can you find tranvel related data.You see where you want to go and see that place related information.I think You will enjoy this web page.",
+      features: ["Light/dark mode toggle", "Live previews", "Private Mode"],
+      skill: ["react", "tailwindcss", "mongodb", "express", "daisyui"],
+    },
+    {
+      id: 1,
+      name: "World Journeys",
+      image:
+        "https://camo.githubusercontent.com/728bae78decc4562d1601f5d8773f719df45ff0b82f9f6070eb98f2c7c7e5515/68747470733a2f2f692e6962622e636f2f424b3967546d582f576f726c642d4a6f75726e6579732d486f6d652d312e706e67",
+      live: " https://world-journeys-6b61a.web.app/",
+      gitRepo: "https://github.com/Sajjad-Hosan/world-journeys",
+      description:
+        "This is a web page. Where can you find tranvel related data.You see where you want to go and see that place related information.I think You will enjoy this web page.",
       features: ["Light/dark mode toggle", "Live previews", "Private Mode"],
       skill: ["react", "tailwindcss", "mongodb", "express", "daisyui"],
     },

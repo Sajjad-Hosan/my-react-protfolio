@@ -3,7 +3,6 @@ import Working from "../Working/Working";
 const Setting = ({ setOpen }) => {
   return (
     <>
-      <button className="btn">open modal</button>
       <dialog id="setting" className="modal">
         <div className="modal-box max-w-3xl">
           <div className="flex justify-between items-center">

@@ -8,6 +8,9 @@ import Contact from "./pageComponents/Contact/Contact";
 import ProjectsSection from "./pageComponents/ProjectsSection/ProjectsSection";
 import Blogs from "./pageComponents/Blogs/Blogs";
 
+// make the project card only show image and name.when hover then show the details or show an extra card
+
+
 const Home = () => {
   const socials = [
     {
@@ -33,7 +36,7 @@ const Home = () => {
         <div className="hero bg-[#f1f1f1] md:h-[550px] rounded-ee-full mt-10">
           <div className="hero-content flex-col-reverse gap-20 lg:flex-row-reverse">
             <img
-              src="/src/assets/banner/boy.png"
+              src="https://i.ibb.co/Nn4TsvM/boy.png"
               alt="anim"
               className="w-[400px] h-[500px] object-cover"
             />

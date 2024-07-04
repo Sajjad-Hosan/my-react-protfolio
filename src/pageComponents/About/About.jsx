@@ -7,7 +7,7 @@ const About = () => {
         <p className="w-1/2 divider divider-neutral text-xl font-semibold -mb-5 mr-auto">
           Who am i ?
         </p>
-        <img src="/src/assets/banner/about.png" alt="" />
+        <img  src="https://i.ibb.co/ZNv8Nft/about.png" alt="" />
       </div>
       <div className="p-5 md:w-1/2 text-left">
         <h1 className="text-2xl font-medium">About Me -</h1>
