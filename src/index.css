@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: "Merienda", cursive;
+    scroll-behavior: smooth;
+}
+/* skill section style */
+.skillImg{
+transition: all .2s;
+
+}
+.skillCard:hover .skillImg{
+transform: scale(1.2);
+transition: all .2s;
+}
