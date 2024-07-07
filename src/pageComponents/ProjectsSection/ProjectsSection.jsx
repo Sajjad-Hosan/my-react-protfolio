@@ -94,7 +94,7 @@ const ProjectsSection = () => {
           <h1 className="text-3xl"> My Projects</h1>
           <p className="text-center">See the works here,</p>
         </div>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 place-items-center gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

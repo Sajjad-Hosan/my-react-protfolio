@@ -30,7 +30,7 @@ const Blogs = () => {
     },
   ];
   return (
-    <div className="flex flex-col gap-12 items-center">
+    <div className="flex flex-col gap-12 items-center p-5">
       <div className="text-center mx-auto space-y-3">
         <h1 className="text-4xl">My Blogs</h1>
         <p className="w-3/5 text-center mx-auto">

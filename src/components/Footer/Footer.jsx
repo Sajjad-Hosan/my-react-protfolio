@@ -7,18 +7,22 @@ const Footer = () => {
     {
       icon: <FaFacebook />,
       name: "facebook",
+      link: "https://www.facebook.com/sajjadhosan111",
     },
     {
       icon: <BsInstagram />,
       name: "instagram",
+      link: "https://www.instagram.com/s4jj4dh034n?igsh=MWdrZHZxa2k2OG00Zg==",
     },
     {
       icon: <FaGithub />,
       name: "github",
+      link: "https://github.com/Sajjad-Hosan",
     },
     {
       icon: <FaLinkedin />,
       name: "linkedin",
+      link: "https://www.linkedin.com/in/sajjad-hosan-250406282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   ];
   return (
@@ -32,9 +36,9 @@ const Footer = () => {
         <nav>
           <div className="flex items-center justify-center">
             <div className="w-16 h-[2px] bg-gray-500 mr-5"></div>
-            {socials.map(({ icon, name }) => (
+            {socials.map(({ icon, name,link }) => (
               <a
-                href="https://www.google.com"
+                href={link}
                 target="_blank"
                 className="btn btn-ghost transform rotate-45 my-1"
                 key={name}

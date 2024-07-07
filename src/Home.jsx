@@ -10,42 +10,45 @@ import Blogs from "./pageComponents/Blogs/Blogs";
 
 // make the project card only show image and name.when hover then show the details or show an extra card
 
-
 const Home = () => {
   const socials = [
     {
       icon: <FaFacebook />,
       name: "facebook",
+      link: "https://www.facebook.com/sajjadhosan111",
     },
     {
       icon: <BsInstagram />,
       name: "instagram",
+      link: "https://www.instagram.com/s4jj4dh034n?igsh=MWdrZHZxa2k2OG00Zg==",
     },
     {
       icon: <FaGithub />,
       name: "github",
+      link: "https://github.com/Sajjad-Hosan",
     },
     {
       icon: <FaLinkedin />,
       name: "linkedin",
+      link: "https://www.linkedin.com/in/sajjad-hosan-250406282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   ];
   return (
     <div className="flex flex-col justify-between gap-24">
       <section id="home">
-        <div className="hero bg-[#f1f1f1] md:h-[550px] rounded-ee-full mt-10">
+        <div className="hero bg-[#f1f1f1] md:h-[550px] rounded-ee-full mt-10 p-5">
           <div className="hero-content flex-col-reverse gap-20 lg:flex-row-reverse">
             <img
               src="https://i.ibb.co/Nn4TsvM/boy.png"
               alt="anim"
               className="w-[400px] h-[500px] object-cover"
             />
-            <div className="md:w-1/2 flex items-center gap-10 md:gap-20">
+            <div className="md:w-1/2 flex items-center gap-10 md:gap-20 mt-12 md:mt-4">
               <div className="flex flex-col items-center">
                 <div className="h-14 w-[1px] border border-gray-400 mb-8"></div>
-                {socials.map(({ icon, name }) => (
+                {socials.map(({ icon, name, link }) => (
                   <a
-                    href="https://www.google.com"
+                    href={link}
                     target="_blank"
                     className="btn btn-outline tooltip tooltip-top flex transform rotate-45 my-1"
                     key={name}
@@ -62,7 +65,7 @@ const Home = () => {
                 <p className="divider divider-neutral tex-sm font-semibold mb-3">
                   Assalamu Alaikum
                 </p>
-                <p className="text-3xl md:text-4xl flex items-center gap-5 text-gray-400">
+                <p className="text-2xl lg:text-4xl flex items-center gap-5 text-gray-400">
                   I'm
                   <h1 className="font-bold text-gray-700">
                     <Typewriter
